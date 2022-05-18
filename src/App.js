@@ -15,6 +15,7 @@ function App() {
       <Navber></Navber>
 
       <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route
           path="/add"
@@ -24,7 +25,14 @@ function App() {
             </Requeir>
           }
         ></Route>
-        <Route path="/my" element={<MyTask></MyTask>}></Route>
+        <Route
+          path="/my"
+          element={
+            <Requeir>
+              <MyTask></MyTask>
+            </Requeir>
+          }
+        ></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SingUp></SingUp>}></Route>
       </Routes>

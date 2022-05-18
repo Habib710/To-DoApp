@@ -11,7 +11,7 @@ const AddTask = () => {
     const name = event.target.name.value
     const about = event.target.descrip.value
 
-    const url = `http://localhost:5000/users`
+    const url = `https://todoserveronline.herokuapp.com/users`
     fetch(url, {
       method: 'POST',
       headers: {

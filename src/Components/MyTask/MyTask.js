@@ -5,7 +5,7 @@ import './task.css'
 const MyTask = () => {
   const [Task, setTask] = useState([])
   useEffect(() => {
-    fetch('http://localhost:5000/users')
+    fetch('https://todoserveronline.herokuapp.com/users')
       .then((res) => res.json())
       .then((data) => setTask(data))
   }, [])
@@ -21,7 +21,7 @@ const MyTask = () => {
       confirmButtonText: 'Yes, delete it!',
     }).then((result) => {
       if (result.isConfirmed) {
-        const url = `http://localhost:5000/users/${id}`
+        const url = `https://todoserveronline.herokuapp.com/users/${id}`
         fetch(url, {
           method: 'DELETE',
         })
