@@ -1,0 +1,17 @@
+.custom-form{
+    margin-top: 150px;
+   
+}
+.new-submit{
+    background-color: rgb(180, 154, 8);
+    color: rgb(247, 247, 247);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 60px;
+}
+.input-css{
+    height: 40px;
+    border-radius: 4px;
+   
+   
+}

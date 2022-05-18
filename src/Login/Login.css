@@ -7,7 +7,7 @@
     padding-top: 50px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-   
+  
    
 }
 .login-main-div{
@@ -37,6 +37,18 @@
   
 }
 .submit-css{
+    margin-top: 100px;
+    background-color: rgb(180, 138, 22);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.submitss-css{
+    margin-top: 220px;
     background-color: rgb(180, 138, 22);
     border: none;
     border-radius: 10px;

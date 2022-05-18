@@ -97,7 +97,7 @@ const SingUp = () => {
                    </h6>
                
                
-               <input className='submit-css w-50' type="submit" value='Sign Up' />
+               <input className='submitss-css w-50' type="submit" value='Sign Up' />
                <br />
                <br />
                <p>Have an account ? <Link className='link-css' to='/login'>Login Now </Link></p>
