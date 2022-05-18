@@ -1,0 +1,15 @@
+.info-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(207, 128, 8);
+    margin: 20px;
+    padding: 10px;
+}
+.delete-css{
+    padding: 8px 15px;
+    background-color: rgb(243, 183, 54);
+}
+.divs{
+    width: 300px;
+}
